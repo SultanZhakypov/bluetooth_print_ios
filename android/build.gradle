@@ -12,14 +12,14 @@ version '1.0'
 //     }
 // }
 
-// rootProject.allprojects {
-//     repositories {
-//         google()
-//         jcenter()
-//     }
-// }
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
 
-// apply plugin: 'com.android.library'
+apply plugin: 'com.android.library'
 
 android {
     namespace 'com.example.bluetooth_print'
